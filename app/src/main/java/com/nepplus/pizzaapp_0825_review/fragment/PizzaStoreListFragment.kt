@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.nepplus.pizzaapp_0825_review.R
 
 class PizzaStoreListFragment: Fragment() {
 
@@ -13,6 +14,11 @@ class PizzaStoreListFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate()
+        return inflater.inflate(R.layout.fragment_pizza_store_list, container, false)
+    }
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+
     }
 }
