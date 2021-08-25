@@ -12,16 +12,18 @@
         android:padding="10dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:id="@+id/logoImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@mipmap/ic_launcher" />
 
         <TextView
+            android:id="@+id/nameTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="가게 이름"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textColor="@color/black"/>
 
     </LinearLayout>
